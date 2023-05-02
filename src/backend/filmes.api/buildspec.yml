@@ -7,6 +7,7 @@ phases:
   pre_build:
     commands:
       - echo Iniciando Build
+      - cd ./src/backend/filmes.api/
   build:
     commands:
       - echo Build started on `date`
