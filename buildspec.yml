@@ -10,7 +10,7 @@ phases:
       - npm install      
       - echo Build started on 'date'
       - npm run build
-    artifacts:
-      files:
-        - "build/*"
-        - "build/**/*"  
+artifacts:
+  files:
+    - "build/*"
+    - "build/**/*"  
